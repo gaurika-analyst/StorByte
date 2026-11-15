@@ -45,7 +45,7 @@ func (r *Router) health(w http.ResponseWriter, req *http.Request) {
         }
         writeJSON(w, http.StatusOK, map[string]any{
                 "status":    status,
-                "service":   "stroex-api",
+                "service":   "storbyte-api",
                 "time":      time.Now().UTC().Format(time.RFC3339),
                 "database":  dbOK,
                 "fileProxy": false,
