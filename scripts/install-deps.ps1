@@ -1,7 +1,7 @@
 #Requires -RunAsAdministrator
 <#
 .SYNOPSIS
-  Install Stroex desktop build dependencies: WinFsp + VS 2022 Build Tools (C++).
+  Install StorByte desktop build dependencies: WinFsp + VS 2022 Build Tools (C++).
 #>
 $ErrorActionPreference = "Stop"
 

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Link, Outlet, useLocation, useSearchParams } from "react-router-dom";
-import logoMark from "../assets/stroex-logo-light.png";
+import logoMark from "../assets/storbyte-logo-light.png";
 import type { AccountInfo, DriveStatus } from "../types";
 
 type Props = {

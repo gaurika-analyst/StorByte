@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import logoMark from "../assets/stroex-logo-light.png";
+import logoMark from "../assets/storbyte-logo-light.png";
 import * as api from "../services/api";
 import type { AccountInfo } from "../types";
 
