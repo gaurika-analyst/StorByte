@@ -1,6 +1,6 @@
 import { listen } from "@tauri-apps/api/event";
 import { useEffect, useRef, useState } from "react";
-import logoMark from "../assets/stroex-logo-light.png";
+import logoMark from "../assets/storbyte-logo-light.png";
 import * as api from "../services/api";
 import type { SyncProgress } from "../types";
 

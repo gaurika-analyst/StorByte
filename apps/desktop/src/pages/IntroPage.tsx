@@ -1,6 +1,6 @@
 import { useState, type CSSProperties, type MouseEvent } from "react";
 import { createPortal } from "react-dom";
-import logoMark from "../assets/stroex-logo-light.png";
+import logoMark from "../assets/storbyte-logo-light.png";
 import { IntroStepZeroBytes } from "./IntroStepZeroBytes";
 import { IntroStepDependencies } from "./IntroStepDependencies";
 import { IntroStepLogin } from "./IntroStepLogin";

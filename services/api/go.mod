@@ -1,4 +1,4 @@
-module github.com/stroex/api
+module github.com/parth-patel010/StorByte/services/api
 
 go 1.22
 

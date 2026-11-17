@@ -8,13 +8,13 @@ type Config struct {
 }
 
 func Load() Config {
-        addr := os.Getenv("STROEX_API_ADDR")
+        addr := os.Getenv("STORBYTE_API_ADDR")
         if addr == "" {
                 addr = ":8080"
         }
         dbURL := os.Getenv("DATABASE_URL")
         if dbURL == "" {
-                dbURL = "postgres://stroex:stroex@localhost:5432/stroex?sslmode=disable"
+                dbURL = "postgres://storbyte:storbyte@localhost:5432/storbyte?sslmode=disable"
         }
         return Config{Addr: addr, DatabaseURL: dbURL}
 }

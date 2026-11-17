@@ -1,4 +1,4 @@
-# Stroex API
+# StorByte API
 
 Control-plane only. Does **not** proxy Google Drive file bytes.
 
